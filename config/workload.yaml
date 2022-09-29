@@ -1,0 +1,14 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: acic-api-book
+  namespace: default
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: acic-api-book
+spec:
+  source:
+    git:
+      ref:
+        branch: main
+      url: https://github.com/sample-accelerators/acic-api-book.git
