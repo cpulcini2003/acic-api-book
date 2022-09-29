@@ -8,6 +8,7 @@
   },
   "license": "Apache License, Version 2.0",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2"
   }
 }
